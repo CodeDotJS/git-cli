@@ -6,7 +6,6 @@ from urlparse import urlsplit
 from urlparse import urlparse
 from posixpath import basename,dirname
  
- 
 def process_url(raw_url):
  if ' ' not in raw_url[-1]:
      raw_url=raw_url.replace(' ','%20')
